@@ -8,7 +8,7 @@ other students without sharing code.
 
 ## Getting Started
 
-You will need to set up a virtual machine (VM) to complete this assignment. Please follow these instructions to set up your VM.
+You will need to set up a virtual machine (VM) to complete this assignment. Please follow the instructions [here](https://github.com/agupta13/cs176c-assignments/blob/master/spring20/assignment2/setup.md) to set up your VM.
 
 
 On your host machine (not the VM), go to the course assignments directory:
