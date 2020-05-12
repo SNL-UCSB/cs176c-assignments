@@ -14,7 +14,7 @@ You will need to set up a virtual machine (VM) to complete this assignment. Plea
 On your host machine (not the VM), go to the course assignments directory:
 
 ```
-$ cd cs176c/spring20/assignments
+$ cd cs176c-assignments-master/spring20/assignments
 ```
 
 Reprovision your VM to install necessary packages for this assignment.
@@ -38,13 +38,8 @@ $ pip install --user matplotlib
 $ pip install --user jupyter
 ```
 
-Make sure your VM is running. Then ssh into your VM:
 
-```
-vagrant ssh
-```
-
-After shelling into your VM, run the command `sudo ~/.local/bin/jupyter-notebook &`. This will start a new Jupyter notebook server in the background. Even though it is
+To start the Jupyter notebook in the background, run the command `sudo ~/.local/bin/jupyter-notebook &`.  Even though it is
 running in the background, it will sometimes print informative messages to the
 terminal. You can press Enter each time you get a message to get the shell
 prompt back. To shut down the notebook, run `fg` then press Control-C twice
