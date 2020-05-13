@@ -85,10 +85,10 @@ Use default options and uncheck "Launch Xming" at the end.
 Open your terminal (use the one mentioned in step 3 if using Windows) and `cd`
 to wherever you want to keep files for this course on your computer.  
 
-Run `git clone https://github.com/PrincetonUniversity/COS461-Public` to
+Run `git clone https://github.com/agupta13/cs176c-assignments` to
 download the course files from GitHub.
 
-`cd COS461-Public/assignments` to enter the course assignment directory.
+`cd cs176c-assignments/spring20/` to enter the course assignment directory.
 
 ### Step 6: Provision virtual machine using Vagrant
 
