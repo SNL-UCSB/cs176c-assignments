@@ -1,7 +1,7 @@
 # Assignment 2 - Current and Future Wireless Technologies
 
 ## Objective: Due 11:59 PM PST, May 5<sup>th</sup>, 2021
-In this assignment, your job is to write a three page (1400-1600 word) paper about one of the topics given below. The write-up should be in 11 point font, with single-line spacing. You can work with at most one other student. Submit the paper as a pdf on the [Gauchospace submission]().
+In this assignment, your job is to prepare a three page (1400-1600 word) report/essay about one of the topics given below. The write-up should be in 11 point font, with single-line spacing. This is *not* a group assignment. Submit the paper as a pdf on the [Gauchospace submission](#).
 
 ## Overview
 The paper should be in the following format -
@@ -15,11 +15,11 @@ The paper should be in the following format -
 	*Do not* just include the URL without the other information.
 
 ## Grading Guidelines:
-Your essay will be graded based on the following components:
-1. presentation style and clarity
-2. content
-3. length of the essay (not less than 1400 words and not more than 1600 words)
-4. proper citations
+Your report will be graded based on the following components:
+1. Presentation style and clarity (3/15)
+2. Technical depth; we encourage you to clearly describe the technical details of the covered technology in as much details as possible (7/15)
+3. Length of the essay, which should not be less than 1400 words and not more than 1600 words (3/15)
+4. Proper citations (2/15)
 
 ## Resources/Help:
 1. [High level tips for writing a good essay](http://www.ehow.com/how_5095767_write-technical-essay.html).
@@ -27,12 +27,28 @@ Your essay will be graded based on the following components:
 3. Any paper that quotes or refers to the work of another person should include a citation or reference to that work. A guide to writing citations can be found [here](http://library.duke.edu/research/citing).
 
 ## Plagiarism policy:
-Be very careful to describe the technology in your own words. If you extract any quotations from a reference, be sure to put that quotation in quotes (“ ”) and include a proper citation. Your paper should in general be written in your own words and should contain minimal direct quotes. Do not copy figures directly from published work unless they are directly cited. Your report may contain at most one performance graph from a published work and must be properly cited. Any architectural drawing of the operation of your technology must be drawn by you. Failure to properly cite original sources constitutes plagiarism. Part of the purpose of this assignment is to learn how to properly cite published work. Please consult with the instructor or the TA if you have any questions in this regard.
+Be very careful to describe the technology in your own words. If you extract any quotations from a reference, be sure to put that quotation in quotes (" ") and include a proper citation. Your paper should, in general, be written in your own words and should contain minimal direct quotes. Do not copy figures directly from published work without directly citing them. Your report may include at most one performance graph from a published work and must be properly cited. You must draw any architectural drawing of the operation of your technology. Failure to properly cite original sources constitutes plagiarism. Part of the purpose of this assignment is to learn how to cite published work properly. Please consult with the instructor or the TA if you have any questions in this regard.
 
-## Presentation:
-You will make a 7 minute presentation about your technology for the class on either April 27 or May 2. If two students worked on the assignment, both must participate in giving the presentation. Be careful to not exceed the time limit. We will discuss how to do the presentations in class in the prior week.  During your presentation, you will be graded on the following:
-1. Sticking within the time limit
-2. Clarity of presentation
-3. Quality of presentation slides
-4. Presentation content
+We won't award any grade point for this assignment if we detect any plagiarism in the submitted report. 
 
+## Topics
+- Open Radio Access Networks (RAN)
+- 5G for Industrial IoT applications
+- 6G Networks
+- Broadband for Rural/Tribal Areas
+- Network telemetry for cellular networks
+- New 802.11 protocols (e.g., ax, ay, ba, etc.)
+- OpenWRT routers (Hint: telemetry systems based on OpenWRT routers)
+- Gigabit Passive Optical Networks (GPON)
+- Open source projects on 5G networks (e.g., AETHER), GPONs (e.g., VOLTHA)
+- DOCSIS 4.0
+- Virtual CMTS
+- Proactive network management (PNM) 
+- Programmable packet scheduling (e.g, PIFO, SP-PIFO, etc.)
+- Video conferencing technologies/applications (e.g., WebRTC, Zoom, Microsoft Teams, Google Hangout, etc.)
+- Video gaming applications
+- Video streaming applications (e.g., Netflix, Hulu, etc.)
+- Internet speed measurement systems (e.g., Speedtest, speedchecker, fast.com, etc.)
+
+
+This is a reference list. If you'd like to explore a topic not covered in this list, please let us know. We will be more than happy to help.
