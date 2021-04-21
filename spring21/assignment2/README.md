@@ -1,7 +1,7 @@
 # Assignment 2 - Current and Future Network Technologies
 
 ## Objective: Due 11:59 PM PST, May 5<sup>th</sup>, 2021
-In this assignment, your job is to prepare a three page (1400-1600 word) report/essay about one of the topics given below. The write-up should be in 11 point font, with single-line spacing. This is *not* a group assignment. Submit the paper as a pdf on the [Gauchospace submission](#).
+In this assignment, your job is to prepare a three page (1400-1600 word) report/essay about one of the topics given below. The write-up should be in 11 point font, with single-line spacing. This is *not* a group assignment. Submit the paper as a pdf on the [Gauchospace submission](https://gauchospace.ucsb.edu/courses/mod/assign/index.php?id=116982).
 
 ## Overview
 The paper should be in the following format -
