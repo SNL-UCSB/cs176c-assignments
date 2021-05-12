@@ -1,20 +1,14 @@
-# Assignment 2: TCP Congestion Control and Bufferbloat
-
-### Due May 26, 6:00pm
-
-This is not a group assignment. You are not allowed to copy or look at code
-from other students. However, you are welcome to discuss the assignments with
-other students without sharing code.
+# TCP Congestion Control and Bufferbloat
 
 ## Getting Started
 
-You will need to set up a virtual machine (VM) to complete this assignment. Please follow the instructions [here](https://github.com/agupta13/cs176c-assignments/blob/master/spring20/assignment2/setup.md) to set up your VM.
+You will need to set up a virtual machine (VM) to complete this assignment. Please follow the instructions [here](https://github.com/SNL-UCSB/cs176c-assignments) to set up your VM.
 
 
 On your host machine (not the VM), go to the course assignments directory:
 
 ```
-$ cd cs176c-assignments-master/spring20/assignments
+$ cd cs176c-assignments/bufferbloat
 ```
 
 Reprovision your VM to install necessary packages for this assignment.
@@ -23,15 +17,7 @@ Reprovision your VM to install necessary packages for this assignment.
 $ vagrant reload --provision
 ```
 
-After shelling into your VM (using `vagrant ssh`), uninstall existing versions of Jupyter and
-matplotlib.
-
-```
-$ sudo pip uninstall matplotlib
-$ sudo pip uninstall jupyter
-```
-
-Re-install Jupyter and matplotlib with the --user flag.
+After shelling into your VM (using `vagrant ssh`), install `jupyter` and `matplotlib`.
 
 ```
 $ pip install --user matplotlib
@@ -52,8 +38,8 @@ notebook file selection window.  Juypter notebook is actually running on port
 browser because the port is being forwarded between the VM and the host
 machine.  
 
-In the file selection window, enter the `assignment2` directory and then open
-`Assignment2_Notebook.ipynb`. This will open a notebook with the instructions
+In the file selection window, enter the `bufferbloat` directory and then open
+`Bufferbloat_Notebook.ipynb`. This will open a notebook with the instructions
 for the rest of the assignment.  Work through this notebook from top to bottom
 and complete the sections marked **TODO**.
 
@@ -77,13 +63,6 @@ clear all variables and reset the environment with the "Restart" option in the
 The "Help" menu contains many additional resources about Jupyter notebooks
 (including a user interface tour, useful keyboard shortcuts, and links to
 tutorials).
-
-## Submission
-
-Submit your completed `Assignment2_Notebook.ipynb` file on Gauchospace.
-
-Remember to put your name and netid in the marked location at the top of the file.
-
 
 #### Acknowledgement
 The Vagrant-based setup is similar to the one used for programming assignments for the [COS 461](https://www.cs.princeton.edu/courses/archive/spring16/cos461/) course at Princeton University. I helped create these programming assignments back in 2016.  The bufferbloat assignment is modeled after a [similar assignment](http://web.stanford.edu/class/cs244/pa1.html) at Stanford University.

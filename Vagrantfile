@@ -9,12 +9,13 @@
 Vagrant.configure(2) do |config|
 
   # 64 bit Ubuntu Vagrant Box
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/focal64"
 
   ## Configure hostname and port forwarding
   config.vm.hostname = "cs176c"
   config.ssh.forward_x11 = true
   config.vm.network "forwarded_port", guest: 8888, host: 8888
+
   # Assignment 6
   config.vm.network "forwarded_port", guest: 12000, host: 12000
 
@@ -28,23 +29,18 @@ Vagrant.configure(2) do |config|
 
   ## Provisioning
   config.vm.provision "shell", inline: <<-SHELL
-     # Basics 
      sudo apt-get update
      sudo apt-get -y upgrade
-     sudo apt-get install -y emacs
-     sudo apt-get install -y python-dev
-     curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
-     sudo python get-pip.py
-     rm -f get-pip.py
-     # Install old version of tornado before installing jupyter
-     sudo pip install tornado==4.5.3
-     sudo pip install jupyter
+     sudo apt-get install -y emacs build-essential libssl-dev libffi-dev python3-dev
+
+     sudo apt-get install -y python3-pip
+
      sudo apt-get install -y gccgo-go
-     sudo pip install -U tzupdate
+     sudo pip3 install -U tzupdate
      echo "export PYTHONPATH=${PYTHONPATH}:/vagrant/course-bin" >> /home/vagrant/.profile
 
      # Set correct permissions for bash scripts
-     find /vagrant -name "*.sh" | xargs chmod -v 744
+     # find /vagrant -name "*.sh" | xargs chmod -v 744
 
      # If the repository was pulled from Windows, convert line breaks to Unix-style
      sudo apt-get install -y dos2unix
@@ -52,12 +48,10 @@ Vagrant.configure(2) do |config|
      find /vagrant -name "*" -type f | xargs dos2unix -q
 
 
-     # Assignment 2
-     sudo pip install nbconvert
+     # Bufferbloat
      sudo apt-get install -y mininet
-     sudo apt-get install -y python-numpy
-     sudo apt-get install -y python-matplotlib
-
+     sudo pip3 install nbconvert
+     sudo pip3 install numpy
 
      # Start in /vagrant instead of /home/vagrant
      if ! grep -Fxq "cd /vagrant" /home/vagrant/.bashrc
@@ -69,7 +63,7 @@ Vagrant.configure(2) do |config|
   ## Provisioning to do on each "vagrant up"
   config.vm.provision "shell", run: "always", inline: <<-SHELL
     sudo tzupdate 2> /dev/null
-    # Assignment 2
+    # Bufferbloat
     sudo modprobe tcp_probe port=5001 full=1
   SHELL
 
@@ -79,5 +73,4 @@ Vagrant.configure(2) do |config|
     vb.memory = 2048
     vb.cpus = 1
   end
-
 end
