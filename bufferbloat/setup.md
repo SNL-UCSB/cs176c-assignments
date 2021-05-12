@@ -1,7 +1,7 @@
 # Virtual Machine Setup
 
 
-Please follow the instructions below to set up your virtual machine (VM). Setttip up this VM, will make it easy to install all dependencies for the programming assignments, saving you the tedium of
+Follow the instructions below to set up your virtual machine (VM). Setting up this VM will make it easy to install all dependencies for the programming assignments, saving you the tedium of
 installing individual packages and ensuring your development environment is
 correct.
 
@@ -88,14 +88,15 @@ to wherever you want to keep files for this course on your computer.
 Run `git clone https://github.com/agupta13/cs176c-assignments` to
 download the course files from GitHub.
 
-`cd cs176c-assignments/spring20/` to enter the course assignment directory.
+`cd cs176c-assignments/` to enter the course assignment directory.
 
 ### Step 6: Provision virtual machine using Vagrant
 
-From the `assignments` directory you just entered, run the command  `vagrant
-up` to start the VM and provision it according to the Vagrantfile. You will
-likely have to wait several minutes. You may see warnings/errors in red, such
-as "default: stdin: is not a tty", but you shouldn't worry about them.
+In the assignment directory, there will be a Vagrantfile which has the
+configuration according to which the VM should be provisioned. Run `vagrant up`
+to start the VM. You will likely have to wait several minutes. You may see
+warnings/errors in red, such as "default: stdin: is not a tty", but you
+shouldn't worry about them.
 
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
