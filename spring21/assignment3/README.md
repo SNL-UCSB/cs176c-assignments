@@ -1,4 +1,4 @@
-# Assignment 2: TCP Congestion Control and Bufferbloat
+# Assignment 3: TCP Congestion Control and Bufferbloat
 
 ### Due May 24, 11:59 PM PST
 
