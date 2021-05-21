@@ -9,34 +9,29 @@
 Vagrant.configure(2) do |config|
 
   # 64 bit Ubuntu Vagrant Box
-  config.vm.box = "ubuntu/focal64"
+  config.vm.box = "ubuntu/xenial64"
 
   ## Configure hostname and port forwarding
   config.vm.hostname = "cs176c"
   config.ssh.forward_x11 = true
   config.vm.network "forwarded_port", guest: 8888, host: 8888
 
-  # Assignment 6
-  config.vm.network "forwarded_port", guest: 12000, host: 12000
-
   vagrant_root = File.dirname(__FILE__)
-
-  # Emacs settings
-  config.vm.provision "file", source: "#{vagrant_root}/config_files/dot_emacs", destination: "~/.emacs"
 
   # Jupyter notebook settings
   config.vm.provision "file", source: "#{vagrant_root}/config_files/jupyter_notebook_config.py", destination: "~/.jupyter/jupyter_notebook_config.py"
 
   ## Provisioning
   config.vm.provision "shell", inline: <<-SHELL
+     sudo add-apt-repository -y ppa:deadsnakes/ppa
      sudo apt-get update
      sudo apt-get -y upgrade
-     sudo apt-get install -y emacs build-essential libssl-dev libffi-dev python3-dev
 
-     sudo apt-get install -y python3-pip
+     sudo apt-get -y install python3.6-dev
+     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+     python3.6 get-pip.py
+     rm get-pip.py
 
-     sudo apt-get install -y gccgo-go
-     sudo pip3 install -U tzupdate
      echo "export PYTHONPATH=${PYTHONPATH}:/vagrant/course-bin" >> /home/vagrant/.profile
 
      # Set correct permissions for bash scripts
@@ -47,11 +42,9 @@ Vagrant.configure(2) do |config|
      printf "Using dos2unix to convert files to Unix format if necessary..."
      find /vagrant -name "*" -type f | xargs dos2unix -q
 
-
      # Bufferbloat
      sudo apt-get install -y mininet
-     sudo pip3 install nbconvert
-     sudo pip3 install numpy
+     # pip3 install jupyter nbconvert mininet numpy tzupdate
 
      # Start in /vagrant instead of /home/vagrant
      if ! grep -Fxq "cd /vagrant" /home/vagrant/.bashrc

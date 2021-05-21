@@ -17,11 +17,10 @@ Reprovision your VM to install necessary packages for this assignment.
 $ vagrant reload --provision
 ```
 
-After shelling into your VM (using `vagrant ssh`), install `jupyter` and `matplotlib`.
+After shelling into your VM (using `vagrant ssh`), install necessary python modules -
 
 ```
-$ pip install --user matplotlib
-$ pip install --user jupyter
+$ pip3 install --user jupyter mininet matplotlib numpy 
 ```
 
 
