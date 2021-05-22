@@ -65,7 +65,3 @@ clear all variables and reset the environment with the "Restart" option in the
 The "Help" menu contains many additional resources about Jupyter notebooks
 (including a user interface tour, useful keyboard shortcuts, and links to
 tutorials).
-
-#### Acknowledgement
-The Vagrant-based setup is similar to the one used for programming assignments for the [COS 461](https://www.cs.princeton.edu/courses/archive/spring16/cos461/) course at Princeton University. I helped create these programming assignments back in 2016.  The bufferbloat assignment is modeled after a [similar assignment](http://web.stanford.edu/class/cs244/pa1.html) at Stanford University.
-
