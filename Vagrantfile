@@ -46,6 +46,10 @@ Vagrant.configure(2) do |config|
      sudo apt-get install -y mininet
      # pip3 install jupyter nbconvert mininet numpy tzupdate
 
+     # Passive Measurement
+     sudo apt-get install -y whois
+     # pip3 install ipaddress
+
      # Start in /vagrant instead of /home/vagrant
      if ! grep -Fxq "cd /vagrant" /home/vagrant/.bashrc
      then
