@@ -43,7 +43,9 @@ Vagrant.configure(2) do |config|
      find /vagrant -name "*" -type f | xargs dos2unix -q
 
      # Bufferbloat
-     sudo apt-get install -y mininet
+     sudo apt-get install -y mininet openvswitch-testcontroller
+     sudo fuser -k 6653/tcp
+     sudo apt-get install -y python3.6-tk
      # pip3 install jupyter nbconvert mininet numpy tzupdate
 
      # Passive Measurement

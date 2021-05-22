@@ -9,10 +9,10 @@ def plot_queue_length(f):
     ax = fig.add_subplot(111)
 
     data = read_list(f)
-    xaxis = map(float, col(0, data))
+    xaxis = list(map(float, col(0, data)))
     start_time = xaxis[0]
-    xaxis = map(lambda x: x - start_time, xaxis)
-    qlens = map(float, col(1, data))
+    xaxis = list(map(lambda x: x - start_time, xaxis))
+    qlens = list(map(float, col(1, data)))
 
     xaxis = xaxis[::1]
     qlens = qlens[::1]

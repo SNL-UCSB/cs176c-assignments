@@ -7,16 +7,16 @@ import itertools
 import matplotlib as m
 import os
 if os.uname()[0] == "Darwin":
-   m.use("MacOSX")
+    m.use("MacOSX")
 else:
-    m.use("Agg")
+    m.use("TkAgg")
 import matplotlib.pyplot as plt
 import argparse
 import math
 #import termcolor as T
 
 def read_list(fname, delim=','):
-    lines = open(fname).xreadlines()
+    lines = open(fname)
     ret = []
     for l in lines:
         ls = l.strip().split(delim)

@@ -71,8 +71,8 @@ def plot_congestion_window(filename, histogram=False):
         cwnd_time.append((t, total_cwnd))
         added[p] = c
         totalcwnds.append(total_cwnd)
-
-    axPlot.plot(first(cwnd_time), second(cwnd_time), lw=2, label="$\sum_i W_i$")
+    
+    axPlot.plot(list(first(cwnd_time)), list(second(cwnd_time)), lw=2, label="$\sum_i W_i$")
     axPlot.grid(True)
     #axPlot.legend()
     axPlot.set_xlabel("seconds")

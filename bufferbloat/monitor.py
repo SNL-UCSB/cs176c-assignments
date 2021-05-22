@@ -5,7 +5,7 @@ import re
 default_dir = '.'
 
 def monitor_qlen(iface, interval_sec = 0.01, fname='%s/qlen.txt' % default_dir):
-    pat_queued = re.compile(r'backlog\s[^\s]+\s([\d]+)p')
+    pat_queued = re.compile(br'backlog\s[^\s]+\s([\d]+)p')
     cmd = "tc -s qdisc show dev %s" % (iface)
     ret = []
     open(fname, 'w').write('')
@@ -17,7 +17,7 @@ def monitor_qlen(iface, interval_sec = 0.01, fname='%s/qlen.txt' % default_dir):
         if matches and len(matches) > 1:
             ret.append(matches[1])
             t = "%f" % time()
-            open(fname, 'a').write(t + ',' + matches[1] + '\n')
+            open(fname, 'a').write(t + ',' + matches[1].decode('utf-8') + '\n')
         sleep(interval_sec)
     #open('qlen.txt', 'w').write('\n'.join(ret))
     return

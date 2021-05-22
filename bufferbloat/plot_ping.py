@@ -5,7 +5,7 @@ from helper import *
 
 def parse_ping(fname):
     ret = []
-    lines = open(fname).readlines()
+    lines = open(fname)
     num = 0
     for line in lines:
         if 'bytes from' not in line:
@@ -25,10 +25,10 @@ def plot_ping_rtt(f, freq=10):
     ax = fig.add_subplot(111)
 
     data = parse_ping(f)
-    xaxis = map(float, col(0, data))
+    xaxis = list(map(float, col(0, data)))
     start_time = xaxis[0]
-    xaxis = map(lambda x: (x - start_time) / freq, xaxis)
-    qlens = map(float, col(1, data))
+    xaxis = list(map(lambda x: (x - start_time) / freq, xaxis))
+    qlens = list(map(float, col(1, data)))
 
     ax.plot(xaxis, qlens, lw=2)
     ax.xaxis.set_major_locator(MaxNLocator(4))
