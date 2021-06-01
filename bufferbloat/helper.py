@@ -21,7 +21,7 @@ def read_list(fname, delim=','):
     for l in lines:
         ls = l.strip().split(delim)
         ls = map(lambda e: '0' if e.strip() == '' or e.strip() == 'ms' or e.strip() == 's' else e, ls)
-        ret.append(ls)
+        ret.append(list(ls))
     return ret
 
 def ewma(alpha, values):
