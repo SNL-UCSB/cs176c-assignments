@@ -22,6 +22,7 @@ In this assignment, you will extract QoS metrics for YouTube video streaming app
 * Plot the Cumulative Distribution Function (CDF) and the Line Plots for each of the computed metric.
 
 
-Note that you can use any API (native Python, PySpark, pandas, etc.) to complete the tasks mentioned above. Also, remember to save your jupyter notebook by clicking the save icon button on the toolbar. You are allowed to use the code from the discussion sections for completing these tasks.
+Note that you can use any API (native Python, PySpark, pandas, etc.) to complete the tasks mentioned above. Also, remember to save your jupyter notebook by clicking the save icon button on the toolbar. You are allowed to use the code from the discussion sections for completing these tasks ([LINK][2]).
 
 [1]: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2018604
+[2]: https://github.com/SNL-UCSB/cs176c-discussion-section/tree/master/yt_chunk_analysis
