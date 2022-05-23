@@ -1,6 +1,6 @@
 # Assignment 4: Extract QoS Metrics for Video Conferencing Application
 
-## Objective: Due June 6th, 2022
+## Objective: Due June 7th, 2022
 In this assignment, you will extract QoS metrics for Google Meet video conferencing application from a given packet capture. This is **not** a group assignment. Submit your code as a jupyter notebook on [the Gauchospace submission][3].
 
 ## Description
