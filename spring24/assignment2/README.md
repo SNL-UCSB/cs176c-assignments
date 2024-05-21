@@ -38,13 +38,13 @@ The paper should be in the following format -
 	*Do not* just include the URL without the other information.
 
 ## Grading Guidelines:
-Your report will be graded based on the following components:
-	- Abstract (10pts)
- 	- Intro (15pts)
-  	- Technical Description (35pts)
-   	- Performance (15pts)
-    	- Conclusion (15pts)
-     	- References (10pts)
+Your report will be graded based on the following components:   
+	- Abstract (10pts)  
+ 	- Intro (15pts)  
+  	- Technical Description (35pts)   
+   	- Performance (15pts)   
+    	- Conclusion (15pts)   
+     	- References (10pts)   
 
 ## Resources/Help:
 1. [High level tips for writing a good essay](http://www.ehow.com/how_5095767_write-technical-essay.html).
