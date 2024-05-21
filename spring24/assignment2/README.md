@@ -39,10 +39,12 @@ The paper should be in the following format -
 
 ## Grading Guidelines:
 Your report will be graded based on the following components:
-1. Presentation style and clarity (20/100)
-2. Technical depth; we encourage you to clearly describe the technical details of the covered technology in as much details as possible (45/100)
-3. Length of the essay, which should not be less than 1400 words and not more than 1600 words (20/100)
-4. Proper citations (15/100)
+	- Abstract (10pts)
+ 	- Intro (15pts)
+  	- Technical Description (35pts)
+   	- Performance (15pts)
+    	- Conclusion (15pts)
+     	- References (10pts)
 
 ## Resources/Help:
 1. [High level tips for writing a good essay](http://www.ehow.com/how_5095767_write-technical-essay.html).
