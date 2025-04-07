@@ -24,5 +24,5 @@ In this assignment, you will extract QoS metrics for YouTube video streaming app
 
 Note that you can use any API (native Python, PySpark, pandas, etc.) to complete the tasks mentioned above. Also, remember to save your jupyter notebook by clicking the save icon button on the toolbar. You are allowed to use the code from the discussion sections for completing these tasks ([LINK][2]).
 
-[1]: https://ucsb.instructure.com/courses/20501/assignments/243802
-[2]: https://github.com/SNL-UCSB/cs176c-discussion-section/tree/master/spring24/week4/yt_chunk_analysis
+[1]: https://ucsb.instructure.com/courses/26742/assignments/356502
+[2]: https://github.com/SNL-UCSB/cs176c-discussion-section/tree/master/spring25/week4/yt_chunk_analysis
