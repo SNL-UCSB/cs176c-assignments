@@ -1,6 +1,6 @@
 # Assignment 4: Extract QoS Metrics for Video Conferencing Application
 
-## Objective: Due June 11th, 2024
+## Objective: Due June 9th, 2024
 In this assignment, you will infer QoE metrics for Google Meet video conferencing application from this [pcap][4]. Submit your code as a jupyter notebook on [Canvas][3].
 
 ## Description
@@ -41,7 +41,7 @@ Both `s->transit` and `s->jitter` can be initialized to 0. You should omit the f
 
 Note that you can use any API (native Python, PySpark, pandas, etc.) to complete the tasks mentioned above. Also, remember to save your jupyter notebook by clicking the save icon button on the toolbar. You are allowed to use the code from the discussion sections for completing these tasks.
 
-[1]: https://github.com/SNL-UCSB/cs176c-discussion-section/blob/master/spring24/week7/Inferring%20QoE%20Metrics%20for%20Real-time%20Applications.ipynb
+[1]: https://github.com/SNL-UCSB/cs176c-discussion-section/blob/master/spring25/week7/Inferring%20QoE%20Metrics%20for%20Real-time%20Applications.ipynb
 [2]: https://en.wikipedia.org/wiki/Real-time_Transport_Protocol#Packet_header
-[3]: https://ucsb.instructure.com/courses/20501/assignments/246660
+[3]: https://ucsb.instructure.com/courses/26742/assignments/356504
 [4]: https://drive.google.com/file/d/1h88pR-4owzWD9iNJjetRTZbFMkdd4MNE/view?usp=sharing
