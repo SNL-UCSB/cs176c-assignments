@@ -1,7 +1,7 @@
 # Assignment 1: Due April 21<sup>st</sup>, 2025
 
 ## Turn-in 
-Submit a text/pdf/markdown report to either of the coures TAs via email. It should have the answers to the questions in the sections below. Please keep your answers as precise and concise as possible. Note that there are a total of `16` questions given in bullet points. Write your answers in sections just as the questions appear in sections.
+Submit a text/pdf/markdown report on Canvas. It should have the answers to the questions in the sections below. Please keep your answers as precise and concise as possible. Note that there are a total of `16` questions given in bullet points. Write your answers in sections just as the questions appear in sections.
 
 ## Overview
 In this assignment, we'll investigate the `802.11` wireless network protocol. Before beginning, you might want to re-read Section 7.3 in the text. Since we'll be delving a bit deeper into `802.11` than is covered in the text, you might also want to check out [A Technical Tutorial on the 802.11 Protocol](http://www.sss-mag.com/pdf/802_11tut.pdf), by Pablo Brenner (Breezecom Communications). And of course, there is the 802.11 standard itself, [ANSI/IEEE Std 802.11, 1999 Edition (R2003)](http://gaia.cs.umass.edu/wireshark-labs/802.11-1999.pdf). In particular, you may find Table 1 on page 36 of the standard particularly useful when looking through the wireless trace.  We will provide a trace of captured `802.11` frames for you to analyze which you are to use to answer the following questions. 
