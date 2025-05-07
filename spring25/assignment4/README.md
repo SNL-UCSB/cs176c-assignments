@@ -1,7 +1,7 @@
 # Assignment 4: Extract QoS Metrics for Video Conferencing Application
 
 ## Objective: Due June 9th, 2024
-In this assignment, you will infer QoE metrics for Google Meet video conferencing application from this [pcap][4]. Submit your code as a jupyter notebook on [Canvas][3].
+In this assignment, you will infer QoE metrics for Google Meet video conferencing application from this [pcap][4]. Submit your code as a jupyter notebook on [Canvas][3]. Late submissions will be accepted with a 5-point deduction per day after the deadline.
 
 ## Description
 In the [discussion section][1], we analyzed traffic from a video conferencing session from a P2P Messenger call where both participants were sending video and audio.

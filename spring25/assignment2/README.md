@@ -1,7 +1,7 @@
 # Assignment 2: Summarize a Hot Topic in Networking Research
 
 ## Objective: Due May 9<sup>th</sup>, 2025
-In this assignment, your job is to prepare a three page (1400-1600 word) report/essay about one of the topics given below. The write-up should be in 11 point font, with single-line spacing. This is *not* a group assignment. Submit the paper as a pdf on Canvas.  
+In this assignment, your job is to prepare a three page (1400-1600 word) report/essay about one of the topics given below. The write-up should be in 11 point font, with single-line spacing. This is *not* a group assignment. Submit the paper as a pdf on Canvas. Late submissions will be accepted with a 5-point deduction per day after the deadline.
 
 ## Topics
 - Open Radio Access Networks (RAN)

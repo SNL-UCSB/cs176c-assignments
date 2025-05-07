@@ -1,7 +1,7 @@
 # Assignment 3: Extract QoS Metrics for Video Streaming Applications
 
 ## Objective: Due May 23rd, 2025
-In this assignment, you will extract QoS metrics for YouTube video streaming application from a given packet capture. This is **not** a group assignment. Submit your code as a jupyter notebook on [Canvas under Assignment 3][1].
+In this assignment, you will extract QoS metrics for YouTube video streaming application from a given packet capture. This is **not** a group assignment. Submit your code as a jupyter notebook on [Canvas under Assignment 3][1]. Late submissions will be accepted with a 5-point deduction per day after the deadline.
 
 ## Tasks
 * You are given a pcap file in which the host (with IP address `192.168.1.103`) is watching a YouTube video. You have to convert the pcap to a CSV or a Parquet file for later analysis
