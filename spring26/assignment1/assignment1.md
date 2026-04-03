@@ -1,7 +1,7 @@
 # Assignment 1: Due April 14<sup>th</sup>, 2026
 
 ## Turn-in 
-Submit a PDF with answers to each of the following questions, include your name, NetID, and PERM number in the submission. Submissions will be taken via Gradescope, instructions on how to join the course on Gradescope and submit the assignment are posted below. Please keep your answers as precise and concise as possible. Late submissions will be acceptance and deducted in accordance to the course late-day policy.
+Submit a PDF with answers to each of the following questions, include your name, NetID, and PERM number in the submission. Submissions will be taken via Gradescope, instructions on how to join the course on Gradescope and submit the assignment are posted below. Please keep your answers as precise and concise as possible. Late submissions will be accepted and deducted in accordance to the course late-day policy.
 
 ## Overview
 In this assignment, we'll investigate the `802.11` wireless network protocol. This assignment is meant to serve as a hands-on introduction to wireless protocol, before we cover the history and design decisions in lecture. A couple useful resources to refer to during this assignment are [A Technical Tutorial on the 802.11 Protocol](http://www.sss-mag.com/pdf/802_11tut.pdf), by Pablo Brenner (Breezecom Communications), and of course, there is the 802.11 standard itself, [ANSI/IEEE Std 802.11, 1999 Edition (R2003)](http://gaia.cs.umass.edu/wireshark-labs/802.11-1999.pdf). In particular, you may find Table 1 on page 36 of the standard particularly useful when looking through the wireless trace.  We will provide a trace of captured `802.11` frames for you to analyze which you are to use to answer the following questions. 
